@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { MonacoLapReplay } from "./components/MonacoLapReplay";
 import { QualifyingPace } from "./components/QualifyingPace";
 import { SeasonComparison } from "./components/SeasonComparison";
-import { StrategyExplorer } from "./components/StrategyExplorer";
+
 
 export const metadata: Metadata = {
   title: "Charles Leclerc Telemetry & Stats — Performance Lab",
@@ -37,7 +37,7 @@ export default function PerformancePage() {
       <MonacoLapReplay />
       <QualifyingPace />
       <SeasonComparison />
-      <StrategyExplorer />
+
     </>
   );
 }
