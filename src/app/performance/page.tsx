@@ -1,3 +1,4 @@
+"use client";
 import type { Metadata } from "next";
 import { MonacoLapReplay } from "./components/MonacoLapReplay";
 import { QualifyingPace } from "./components/QualifyingPace";
