@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Instagram, Twitter, Youtube } from "lucide-react";
 import { NAV_LINKS } from "@/lib/data";
