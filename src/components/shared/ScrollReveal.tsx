@@ -20,7 +20,7 @@ export function ScrollReveal({
   threshold = 0.15,
 }: ScrollRevealProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const inView = useInView(ref, { once: true, margin: `-${(1 - threshold) * 10}%` });
+  const inView = useInView(ref, { once: true, margin: "-10%" });
 
   const initial = {
     opacity: 0,
