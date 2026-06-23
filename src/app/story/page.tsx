@@ -1,3 +1,4 @@
+"use client";
 import type { Metadata } from "next";
 import { StoryHero } from "./components/StoryHero";
 import { ChapterOrigins } from "./components/ChapterOrigins";
